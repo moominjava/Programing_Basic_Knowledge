@@ -1,0 +1,38 @@
+프로그래밍 언어 분류
+
+컴파일언어 vs 인터프리터언어
+
+*컴파일언어(compile language)
+  1.소스코드 source
+  2.컴파일러 compiler
+  3.기계어
+  4.실행
+c, c++
+오프라인 컴파일러가 고수준언어를 네이티브 코드로 변환한다
+다양한 최적화 가능
+1시간동안 컴파일, 0.1초 실행
+플랫폼마다 다른 exe파일을 컴파일 해야함
+
+*JIT언어(just-in-time)
+  1.소스코드 source
+  2.컴파일러 compiler
+  3.중간언어코드 intermediate language code
+  4.jit 컴파일러
+  5.기계어
+  6.실행
+컴파일언어와 인터프리터언어의 중간적 성격
+c#, java, WASM(WebAssembly)
+오프라인 컴파일러가 중간언어로 변환
+플랫폼별로 VM(가상머신, virtual machine)을 설치 해야함
+프로그램 실행 중에 vm이 중간언어를 기계어로 변환
+c#, java는 플랫폼에 종속 적이지 않고, vm에 종속적
+
+*인터프리터언어(interpreter language)
+  1.소스코드 source code
+  2.인터프리터
+  3.기계어
+  4.실행
+JavaScript, Python, Lua, PHP
+실행중에 고수준언어를 네이티브코드로 변환
+실행하기전까지 코드의 문제를 잡아낼 수 없음
+ -오프라인 컴파일러가 없기때문
