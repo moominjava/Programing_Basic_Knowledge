@@ -1,0 +1,10 @@
+conslo : 명령프롬프트
+
+using system
+
+using :c#에서는 지시어
+ system : 라이브러리
+
+라이브러리란?
+ c#에서는 네임스페이스
+ java에서는 패키지라고함
