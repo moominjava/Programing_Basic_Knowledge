@@ -1,0 +1,27 @@
+출력
+
+c#기준
+write   줄바꿈없이 출력
+writeline    출력후 줄바 꿈
+
+구문 statement
+한줄짜리코드 
+끝에 ;가 있다
+
+여러줄의코드
+블록scope
+if {}
+
+주석 comment
+//주석
+/* 주석 */
+주석처리한다 comment out
+주석을 해제한다 comment in
+
+상수 constant
+변하지않는값
+매직넘버라도함
+
+변수
+선언declaration
+대입assignment
