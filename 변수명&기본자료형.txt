@@ -1,0 +1,39 @@
+변수명
+
+변수명에서 각 데이터가 무엇을 의미하는지 알수 있도록
+명사로 정확하게 정보 표시 : score, name
+두번째 단어의첫 글자는 대문자로 : mathScore
+
+변수 ex) mathScore
+상수 es) MATH_SCORE
+
+기본자료형(Primitive Types)(원시자료형)
+
+기본자료형: 컴퓨터가 이해할 수 있는 가장 자연스러운 형태의 데이터
+	전부 다 숫자
+	0과1로만 표현
+	10진수는 0-9
+	2진수 0,1
+
+최소단위 비트(bit)
+8bit(byte)
+1024byte(KB)
+1024KB(MB)
+
+정수형
+byte(char), short, int, long
+부동소수점형(Floating-Point Types)
+float, double
+문자형(Characther Type)
+char
+불리언형(Boolean Type)
+true, false
+
+C#기본자료형
+byte - 8bit 정수
+char - 16bit 문자
+short - 16bit 정수
+int - 32bit 정수
+long - 64bit 정수
+float - 32bit 실수
+double - 64bit 실수
